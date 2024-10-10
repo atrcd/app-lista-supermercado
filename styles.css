@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #5a71bb;
+    font-family: 'poppins',sans-serif;
+    text-align: center;
+    color: #ffff;
+    padding:20px 0;
+}
+.lista-cadastro{
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+    margin: 20px auto;
+    background-color: #ccc;
+    max-width: 400px;
+    padding: 50px 10px;
+    border-radius: 10px;
+}
+.lista-cadastro input[type=text]{
+    flex: 1;
+}
+.lista-cadastro input{
+    padding: 10px;
+    border-radius: 10px;
+    border: gray solid 2px;
+    outline: none;
+}
+.lista-cadastro input[type=submit]{
+    background-color: #5a71bb;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.lista-cadastro input[type=submit]:hover{
+    filter: brightness(70%);
+}
+.lista-produto-single{
+    font-family: 'poppins',sans-serif;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+}
+.lista-produto-single h3{
+    flex: 1;
+}
+span.price-produto{
+    font-size: 20px;
+    background-color: #5a71bb;
+    padding: 5px;
+    border-radius: 20px;
+    color: #fff;
+}
+h1{
+    margin: 20px;
+}
+button[name="limpar"]{
+    width: 20%;
+    padding: 20px;
+    background-color: #5a71bb;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
